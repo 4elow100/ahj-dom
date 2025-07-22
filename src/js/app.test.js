@@ -1,3 +1,3 @@
-test("Простой тест", () => {
-  expect(true).toBe(true); // Базовый пример проверки
+test("Заглушка для тестов", () => {
+  expect(true).toBe(true);
 });
