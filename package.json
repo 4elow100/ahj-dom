@@ -14,7 +14,7 @@
     "preshow:dist": "npm run build",
     "show:dist": "http-server dist"
   },
-  "author": "coursar",
+  "author": "4elow100",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "7.26.4",
