@@ -1,4 +1,4 @@
-import goblinImage from "../img/goblin.png"
+import goblinImage from "../img/goblin.png";
 
 document.addEventListener("DOMContentLoaded", () => {
   const holes = document.querySelectorAll(".hole");
