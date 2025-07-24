@@ -1,9 +1,17 @@
 import goblinImage from "../img/goblin.png";
 
 document.addEventListener("DOMContentLoaded", () => {
-  const holes = document.querySelectorAll(".hole");
+  const gameContainer = document.querySelector(".game-container");
   let currentHole = null;
   let img;
+
+  for (let i = 0; i < 16; i++) {
+    const holeDiv = document.createElement("div");
+    holeDiv.classList.add("hole");
+    gameContainer.appendChild(holeDiv);
+  }
+
+  const holes = document.querySelectorAll(".hole");
 
   function getRandomHole() {
     return holes[Math.floor(Math.random() * holes.length)];
